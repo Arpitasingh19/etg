@@ -1,0 +1,31 @@
+
+button{
+    background-color: green;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.input-control{
+    display: flex;
+    
+}
+#form{
+    margin: 30vh auto 0 auto;
+    width: 300px;
+    padding: 20px;
+    background-color:gainsboro;
+    font-size:large;
+    border-radius: 5px;
+
+}
+span{
+    display: block;
+    margin-left: 20px;
+    color: red;
+}
+    

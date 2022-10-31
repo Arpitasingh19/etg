@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.logo{
+    width: 200px;
+}
+
+.banner-img{
+   
+    width: 100%;
+    height: 100%;
+    
+}
+.doddle-banner,h2,.admission{
+    background-image:url('img/1/DOODLE\ 1.png');
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.doddle-banner-1{
+    background-image:url('img/3/DOODLE\ 1.png');
+    background-size: cover;
+}
+.doddle-banner-2{
+    background-image: url('img/3/DOODLE\ 2.png');
+    background-size: cover;   
+
+}
+.doddle-banner-3{
+    background-image: url('img/4/DOODLE\ 3.png'); 
+     background-size: cover;  
+
+}
+.admission{
+    text-align:center;
+}
+.hero-content{
+    position:absolute;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    
+}
+.hello{
+    background-image: -webkit-linear-gradient(white,#d1baeb);
+    margin-top: 200px;
+}
+.register a{
+    color: #FCD700 !important;
+    text-decoration: none;
+    align-items: center;
+}
+  
+/* .fouryellow{
+    background-color:#ffe455;
+    text-align: center;
+    margin-left:100px;
+    margin-right: 100px;
+} */
+/* .hero-content{
+   
+} */
+.studentimg{
+    width: 70%;
+}
+.student{
+    background-image:url('img/6/DOODLE\ 4.png');
+    background-size: cover;
+}
+span{
+    color: #FCD700;
+}
+h1,h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #60269E;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+hr{
+    height: 10px !important;
+    width: 6%;
+    background-image: linear-gradient(to right, #5a19a0, #FCD700);
+    opacity: 1;
+
+}
+.register{
+    background-color: #60269E;
+    color: #FCD700;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 40px 20% 50px;
+}
+.whyscolage{
+    text-align: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(white,#d1baeb);
+}
+.scolagestories{
+    text-align: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(white,#d1baeb);
+
+}
+/* img{
+    height: 200px;
+    width: 250px
+} */
+.step-1{
+    background-color: #d1baeb;
+    width: 400px;
+
+}
+.step-2{
+    background-color: #FCD700;
+    width: 400px;
+    
+
+}
+.step-3{
+    background-color: #d1baeb;
+    width: 400px;
+}
+.form-control{
+    background-color:#fff;
+    box-shadow: 0 0 20px white;;
+}
+.lastfooter{
+    background-color: #5a19a0;
+    margin-top: -60px;
+    padding: 60px 0;
+}

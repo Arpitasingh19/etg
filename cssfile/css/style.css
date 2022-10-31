@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.text{
+   color: red;
+}
+table,thead,tr,td{
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+
+}
+body{
+    background-color: rgb(204,229,255);
+    font-size: medium;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#about-us-img{
+    height: 300px;
+    width: 60%;
+    border: 3px solid black;
+    padding: 20px;
+    margin:60px 40px;
+
+
+}
+.subtitle{
+    color: blue;
+}
+.service-img{
+    height:400px;
+    width: 70%;
+   /* background:linear-gradient(to right,red,green,steelblue,blue); */
+   background-size:cover;
+   background:radial-gradient( circle,red 30%,blue 45%,green 40%);
+   border: 2px dashed yellow;
+   
+}
+.container{
+    background-color: rgb(250,250,250);
+    margin: 10px;
+    display: flex;
+}
+.container-item{
+    background: rgb(36,130,39);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin:10px;
+   
+}
+.container1{
+    background-color: rgb(250,250,250);
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.container-item1{
+    background: rgb(36,130,39);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin:10px;
+   
+}
+.grid-container{
+background-color: rgb(250,250,250);
+    margin: 10px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    /* align-content: space-around;
+    justify-content:space-between;
+     */
+    
+}
+.grid-item{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 40px;
+    margin:10px;
+    display: grid;
+    }
+
+#img{
+    float: right;
+}
+.site-table{
+   display:inline-block;
+
+}
+h2:hover{
+    color: red;
+}
+li:last-child{
+    color: steelblue;
+}
+li:nth-child(3){
+    color: steelblue;
+}td:only-child{
+    color: purple;;
+}
+#google-link:link{
+    color: blue;
+}
+#google-link:visited{
+    color: red;
+}
+h2+a{
+    color: red;
+}
+textarea~button{
+    color: purple;
+}
+ul>li{
+    color: blue;
+}
+ul li{
+    color: brown;
+}
+.submit-button{
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    font-family:"Lato",sans-serif;
+    font-size: 20px;
+    font-weight:600;
+    color: aliceblue;
+    background: green;
+    border-radius: 5px;
+}
+.submit-button:hover{
+    background-color: brown;
+
+}

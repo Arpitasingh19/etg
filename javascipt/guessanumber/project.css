@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.parent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border:2px solid red;
+    
+}
+body{
+    background-color: rgb(92, 163, 163);
+    
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+}
+.questionmark{
+    border: 2px solid blue;
+    width: 90px;
+    height: 50px;
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+.number{
+    border: 2px solid red;
+    width: 90px;
+    height: 50px;
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content:center;
+    margin-top: 5%;
+    padding-top:10px;
+   background-color: aliceblue;
+  
+}

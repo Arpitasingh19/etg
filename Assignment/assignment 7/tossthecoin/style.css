@@ -1,0 +1,75 @@
+body{
+    background:#aed6db;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top:30px;
+}
+.container{
+    background: #4dd0e1;
+    height: 650px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px white;
+}
+.winner{
+    margin-top: 40px;
+}
+.totalshow{
+    display: flex;
+    font-weight: 500;
+    background-color: #aed6db;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 55px;
+    border-radius:12px;
+    box-shadow: 0 0 10px white;
+}
+
+.totalshow h4:nth-last-child(1){
+    margin-left: 480px;
+}
+.btn{
+    width: 15%;
+    box-shadow: 0 0 20px rgb(255, 253, 253);
+}
+.coin{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 32px auto;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.head,.tail{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility:hidden;
+            backface-visibility: hidden;
+}
+
+.tail{
+    transform: rotate3d(180deg);
+}
+
+@keyframes tail{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(1980deg);
+    }
+}
+@keyframes head{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(2160deg);
+    }
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,700&family=Poppins&display=swap');
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #40514E;
+    
+}
+h1{
+    margin-top: 0;
+    margin-top: 50px;
+    font-family: 'Sacramento',cursive;
+    font-size: 3rem;
+    color: #66BFBF;
+    line-height:2;
+}
+h3{
+    font-family: "montserrat",sans-serif;
+    font-size: 1.5rem;
+    color:#11999E;
+
+}
+h2{
+    font-family: "montserrat",sans-serif;
+    font-size: 0.2rem;
+    color:#11999E;
+    font-weight: normal;
+    padding-bottom: 10px;
+    
+  
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code-img{
+    width:25%;
+    float:left;
+    border-radius:50%;
+    margin-right:30px;
+}
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    
+}
+
+a{
+    font-family: "montserrat",sans-serif;
+    font-size: 1.5rem;
+    color:#11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color:#EAF6F6;
+    color: #11999E;
+}
+p{
+    line-height: 2;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin:100px auto;
+    
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin:40px auto 60px;
+}
+.btn{
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5%;
+    color: #EAF6F6;
+    background-color: #66BFBF;
+}
+.btn:hover{
+    background-color: #11999E;
+    color: #EAF6F6;
+}
+
+.top-container{
+    background-color: #ebfdfa;
+    position: relative;
+    padding-top:100px;
+   
+    
+}
+.middle-container{
+    margin: 100px 0;
+
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.contact{
+    color: #11999E;
+}
+div{
+    position: relative;
+}
+.pro{
+    color: red;
+   text-decoration: underline;
+}
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+  
+    
+}
+.blue{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+   left:200px;
+
+}
+.yellow{
+    background-color:yellow;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+.top-cloud{
+    position:absolute;
+   right: 200px;
+   top: 50px;
+}

@@ -1,0 +1,55 @@
+body{
+    /* background:radial-gradient( rgb(255, 232, 232), rgb(255, 155, 155)); */
+    background-color:whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+#form{
+    margin: 30vh auto 0 auto;
+    width: 300px;
+    padding: 20px;
+    background-color:gainsboro;
+    font-size:large;
+    border-radius: 5px;
+
+}
+#form button{
+    background-color: green;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: whitesmoke;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#form h1{
+    text-align: center;
+}
+.input-control input {
+    display: block;
+    outline: none;
+    font-size:large;
+    height: 30px;
+    border-radius: 3px;
+    background-color: transparent;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+}
+.input-control input:focus {
+    border-image-source: linear-gradient(to left,rgb(20, 221, 20), rgb(139, 224, 160));
+    border-image-slice: 1;
+}
+.input-control.success input{
+    color:brown;
+}
+.input-control.error input{
+    color: green;
+}

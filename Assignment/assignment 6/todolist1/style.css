@@ -1,0 +1,29 @@
+.container{
+   border: 2px solid blue;
+   width: 40%;
+   margin: auto;
+   padding: 10px;
+   
+}
+.input{
+    width: 80%;
+    height: 20px;
+}
+.btn{
+    width: 50px;
+    height: 23px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 2px;
+
+}
+#error{
+    color: red;
+    font-size: 14px;
+}
+a{
+    color: black;
+    float: right;
+    text-decoration: none;
+}

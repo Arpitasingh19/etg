@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+   font-size:55px;
+}
+body{
+    background-color: rgb(212, 159, 195);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    
+}
+.todo-form{
+    background-color: rgb(178, 134, 219);
+    margin: 10vh auto 0 auto; 
+    max-width: 500px;
+    padding:20px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+.todo-form input{
+    border: none;
+    height: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.AddProduct{
+    background-color: rgb(145, 209, 145);
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo-item{
+   list-style-type: none;
+   display:flex;
+   justify-content: space-between;
+   
+   
+}
+
+/* .checkbox{
+    padding-top: auto;
+    padding-bottom: auto;
+
+} */
+.delete{
+    background-color: red;
+    border: none;
+    color: white;
+
+    border-radius: 2px;
+}
+#error{
+    color: red;
+}

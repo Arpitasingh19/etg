@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" style="text-align:center;">
+        <h1 style="background-color: rgb(75, 157, 224);">Calculator App</h1>
+        <div class="container">
+            <label for="">Enter FirstNumber:</label><br>
+            <input type="text" name="text1" id="text1"><br>
+            <label for="">Enter secondNumber:</label><br>
+            <input type="text" name="text2" id="text2"><br>
+            <label for="">Result: </label><br>
+            <input type="text" name="result" id="result" value=""><br><br>
+            <button class="btn btn-primary" value="+" onclick="addTwoNumber()">+</button>
+            <button class="btn btn-danger" value="-" onclick="subTwoNumber()">-</button>
+            <button class="btn btn-success" value="*" onclick="MulTwoNumber()">*</button>
+            <button class="btn btn-info" value="/" onclick="DivTwoNumber()">/</button>
+        </div>
+    </div>
+    <script src="script/calculator.js"></script>
+
+</body>
+</html>

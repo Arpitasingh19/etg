@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="css/cal.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+        <div class=""></div>
+        <form action="">
+           <input type="text" name="textview" id="result"><br><br>
+        </form>
+        
+           
+                <tr>
+                    <td><input type="button" class="btn btn-primary" value="1" onclick="insert(1)"></td>
+                    <td><input type="button" class="btn btn-primary" value="2" onclick="insert(2)"></td>
+                    <td><input type="button" class="btn btn-primary" value="3" onclick="insert(3)"></td>
+                    <td><input type="button" class="btn btn-primary" value="*" onclick="insert('*')"></td><br>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn btn-primary" value="4" onclick="insert(4)"></td>
+                    <td><input type="button" class="btn btn-primary" value="5" onclick="insert(5)"></td>
+                    <td><input type="button" class="btn btn-primary" value="6" onclick="insert(6)"></td>
+                   <td><input type="button" class="btn btn-primary" value="+" onclick="insert('+')"></td><br>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn btn-primary" value="7" onclick="insert(7)"></td>
+                    <td><input type="button" class="btn btn-primary" value="8" onclick="insert(8)"></td>
+                    <td><input type="button" class="btn btn-primary" value="9" onclick="insert(9)"></td>
+                   <td><input type="button" class="btn btn-primary" value="-" onclick="insert('-')"></td><br>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn btn-primary" value="Ac" onclick="insert('Ac')"></td>
+                    <td><input type="button" class="btn btn-primary" value="B" onclick="clearScreen()"></td>
+                    <td><input type="button" class="btn btn-primary" value="/" onclick="insert('/')"></td>
+                    <td rowspan = 5> <input class = "btn btn-primary" style = "height: 110px" type = "button" value = "=" onclick = "calculate()"> </td><br>
+                   
+                </tr>
+                <tr>  
+                    <td colspan = 2> <input class = "btn btn-primary" style = "width: 106px" type = "button" value = "0" onclick = "insert(0)" > </td>  
+                    <td> <input class = "btn btn-primary" type = "button" value = "." onclick = "insert('.')"> </td>  
+                    </tr>  
+
+
+    </div>
+
+</body>
+<script src="script/cal.js"></script>
+
+</html>

@@ -1,0 +1,31 @@
+#increment-btn{
+    border: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    background: brown;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px;
+
+}
+#increment-btn:hover{
+    background-color: aqua;
+
+}
+#save-btn{
+    border: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    background: rgb(39, 105, 91);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 10px;
+
+}
+#save-btn:hover{
+    background-color: rgb(21, 173, 85);
+
+}

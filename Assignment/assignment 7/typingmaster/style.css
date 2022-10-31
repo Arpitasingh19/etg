@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(236, 191, 235);
+    color: rgb(105, 33, 105);
+    text-align: center;
+}
+.card-text{
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.content-show{
+    margin-top: 10px;
+    color: black;
+}
+.timer, .errors,
+.accuracy, .cpm, .wpm {
+  background-color:white;
+  height: 60px;
+  width: 500px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 10%;
+  box-shadow: grey 5px 8px 5px; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.timershow{
+    display: flex;
+    justify-content: center;
+}
+.errors{
+    color: red;
+}
+.start,.restart{
+    width: 15%;
+    
+}

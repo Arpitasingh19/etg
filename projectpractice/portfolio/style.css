@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo-img{
+    height: 40px;
+}
+li a{
+    color: #333;
+}
+.big-text{
+    color: orange;
+    font-size: 52px;
+    margin: 20px 0;
+}
+.heading-content{
+    margin: 40px 0;;
+}
+.banner-image{
+    margin: 30px 0;
+}
