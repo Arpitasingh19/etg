@@ -110,10 +110,11 @@ hr{
     background-image: -webkit-linear-gradient(white,#d1baeb);
 
 }
-/* img{
-    height: 200px;
-    width: 250px
-} */
+.contact-form{
+    background-color: #fff;
+    box-shadow: 0 0 20px white;
+
+}
 .step-1{
     background-color: #d1baeb;
     width: 400px;
@@ -131,7 +132,7 @@ hr{
 }
 .form-control{
     background-color:#fff;
-    box-shadow: 0 0 20px white;;
+    box-shadow: 0 0 20px white;
 }
 .lastfooter{
     background-color: #5a19a0;
