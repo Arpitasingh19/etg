@@ -48,8 +48,8 @@ body{
     border-image-slice: 1;
 }
 .input-control.success input{
-    color:brown;
+    color:green
 }
 .input-control.error input{
-    color: green;
+    color:red
 }
