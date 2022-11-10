@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(153, 173, 179);
+}
+.container{
+    background: #44cce0;
+    height: 650px;
+    width: 750px;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    box-shadow:0px 0px 10px #c7c7c7;
+    border-radius: 15px;
+   
+}
+
+.btn{
+    width: 35%;
+    font-size:1.5rem;
+}
+.error {
+    border: 2px solid red;
+}
+.correct{
+    border:2px solid green;
+}

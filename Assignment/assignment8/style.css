@@ -131,12 +131,28 @@ hr{
     background-color: #d1baeb;
     width: 400px;
 }
-.form-control{
+/* .form-control{
     background-color:#fff;
     box-shadow: 0 0 20px white;
+} */
+.contact-form .form-control {
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-color: #bfbfbf;
 }
+
 .lastfooter{
     background-color: #5a19a0;
     margin-top: -60px;
     padding: 60px 0;
+}
+.note h6{
+    color: #5a19a0;
+    font-size:1.5rem;
+    float: left;
+
+}
+.note p{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
 }

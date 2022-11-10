@@ -116,7 +116,7 @@ resetbtn.addEventListener("click",function(){
         Element.classList.remove('error'); 
         Element.classList.remove('correct')
     })
-    
+    submitbtn.classList.remove("disabled");
 })
 function blur() {
     arr.forEach((Element) => {

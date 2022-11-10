@@ -27,7 +27,12 @@ document.addEventListener('keydown',function(e){
     }
 });
 //page navigation
-
+// document.querySelectorAll('.nav__link').forEach(function(el){
+//     el.addEventListener('click',function(e){
+//         e.preventDefault();
+//         console.log('LINK');
+//     });
+// })
 
 
 
