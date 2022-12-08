@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/7604bb5aea.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>KBC quiz</title>
+</head>
+<!-- Body Starts -->
+<body>
+    <div class="container-fluid quiz-box hide">
+        <div class="row">
+            <h1 class="p-1">Kbc Quiz app</h1>
+            <div class="col-lg-8 kbc-logo text-center">
+                <div class="row">
+                    <div class="col-12  mt-3">
+                        <img src="images/Kaun_Banega_Crorepati.jpg" alt="">
+                    </div>
+                    <div class="timer">
+                        <button class="btn btn-secondary rounded shadow timerbtn  mt-3 fs-1 fw-bold mx-5 px-5">00:30 Sec</button>
+                    </div>
+                </div><br>
+                <div class="row box mx-5 my-3">
+                    <div class="col mx-4 text-center fs-2 fw-bold py-3 mt-3 mb-2 rounded question">What is JavaScript ?</div>
+                    <div class="col-12 text-center px-3 answer">
+                        <div class="row mx-5 my-3 d-flex justify-content-center option-container">
+                            <div class="col-12 col-md-6" style="margin-bottom:10px;"><h6 data-option="" class="btn-option answer-a btn-outline-primary fs-4 fw-bold rounded shadow" style="padding:10px;">scripting</h6></div>
+                            <div class="col-12 col-md-6" style="margin-bottom:10px;"><h6 data-option="" class="btn-option answer-b btn-outline-primary fs-4 fw-bold rounded shadow" style="padding:10px">scripting</h6></div>
+                            <div class="col-12 col-md-6" style="margin-bottom:10px;"><h6 data-option="" class="btn-option answer-c btn-outline-primary fs-4 fw-bold rounded shadow" style="padding:10px">scripting</h6></div>
+                            <div class="col-12 col-md-6" style="margin-bottom:10px;"><h6 data-option="" class="btn-option answer-d btn-outline-primary fs-4 fw-bold rounded shadow" style="padding:10px">scripting</h6></div>
+                     </div> 
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="check col rounded shadow p-2 mx-4 py-2 fs-4 fw-bold btn btn-success my-3">Check</div>
+                    <div class="next col rounded shadow p-2 mx-4 py-2 fs-4 fw-bold btn btn-danger my-3">Next</div> 
+                </div>
+
+                <div class="gameExit">
+                    <div class="gameover text-center hide">
+                        <h2 class="game">Game Over 😥😥</h2><br>
+                        <h2 class="winprize"></h2>
+                    </div>
+                </div>
+            </div>
+                <div class="score col-lg-4 text-center purple"><br>
+                <h1 class="">life-line</h1>
+                <button class="flipbtn btn btn-success rounded mt-4 fs-4 fw-bold mx-4 px-4"><i class="fa-solid fa-repeat"></i></button>
+                <button class="fiftybtn btn btn-success rounded mt-4 fs-4 fw-bold mx-4 px-4">50-50</button><br>
+                <ul class="score">
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.7 crores</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.3 crores</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.1 crores</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.50,00,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.25,00,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.12,50,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.6,40,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.3,20,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.1,60,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.80,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.50,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.20,000</li> 
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.10,000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.5000</li>
+                    <li class="price-amt fs-4 fw-bold mx-5">Rs.1000</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid startgame col-lg-12 col-xs-2">
+        <img src="images/kbc-head.png" alt="" class="h-100 w-100">
+        <button class=" rounded  shadow   fs-2 fw-bold btn btn-success" style="position: absolute; top: 50%; left: 50%; margin-right: -50%;
+        transform: translate(-50%, -50%);">Start game</button>
+        
+    </div>
+    <!-- Body Ends -->
+    <script src="script.js"></script>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+    </body>
+    
+    </html>

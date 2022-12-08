@@ -1,0 +1,25 @@
+.parentContainer
+{
+    background: linear-gradient(to bottom right, rgb(198, 140, 236) , rgb(165, 87, 84));
+}
+.childContainer
+{
+    height: 100vh;
+    
+}
+
+.logoImg 
+{
+    width: 100px;
+}
+
+.b{
+    background-color:rgb(136, 49, 103); 
+}
+
+.displayError
+{
+    color: red;
+}
+
+/*  background: linear-gradient(to bottom right, rgb(143, 13, 230) , rgb(138, 38, 35)); */

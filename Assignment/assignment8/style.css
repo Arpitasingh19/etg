@@ -8,7 +8,6 @@ body{
 }
 
 .banner-img{
-   
     width: 100%;
     height: 100%;
     
@@ -117,7 +116,7 @@ hr{
 
 }
 .step-1{
-    background-color:#fff;
+    background-color:#d1baeb;
     width: 400px;
 
 }

@@ -1,0 +1,89 @@
+[
+  {
+    "USD": {
+      "symbol": "$",
+      "name": "US Dollar",
+      "symbol_native": "$",
+      "decimal_digits": 2,
+      "code": "USD",
+      "name_plural": "US dollars"
+    }
+  },
+  { 
+    "CAD": {
+      "symbol": "CA$",
+      
+      "name": "Canadian Dollar",
+      "symbol_native": "$",
+      "decimal_digits": 2,
+      "code": "CAD",
+      "name_plural": "Canadian dollars"
+    }
+  },
+
+  {
+    "EUR": {
+      "symbol": "€",
+      "name": "Euro",
+      "symbol_native": "€",
+      "decimal_digits": 2,
+      "code": "EUR",
+      "name_plural": "euros"
+    }
+  },
+
+  {
+    "INR": {
+      "symbol": "Rs",
+      "name": "Indian Rupee",
+      "symbol_native": "₹",
+      "decimal_digits": 2,
+      "code": "INR",
+      "name_plural": "Indian rupees"
+    }
+  },
+
+  {
+    "JPY": {
+      "symbol": "¥",
+      "name": "Japanese Yen",
+      "symbol_native": "￥",
+      "decimal_digits": 0,
+      "code": "JPY",
+      "name_plural": "Japanese yen"
+    }
+  },
+
+  {
+    "MXN": {
+      "symbol": "MX$",
+      "name": "Mexican Peso",
+      "symbol_native": "$",
+      "decimal_digits": 2,
+      "code": "MXN",
+      "name_plural": "Mexican pesos"
+    }
+  },
+
+  {
+    "NGN": {
+      "symbol": "₦",
+      "name": "Nigerian Naira",
+      "symbol_native": "₦",
+      "decimal_digits": 2,
+      "code": "NGN",
+      "name_plural": "Nigerian nairas"
+    }
+  },
+
+  {
+    "TWD": {
+      "symbol": "NT$",
+      "name": "New Taiwan Dollar",
+      "symbol_native": "NT$",
+      "decimal_digits": 2,
+      "code": "TWD",
+      "name_plural": "New Taiwan dollars"
+    }
+  }
+]
